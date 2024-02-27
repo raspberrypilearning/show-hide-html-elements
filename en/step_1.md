@@ -1,59 +1,79 @@
-## Introduction
+To show or hide HTML elements using CSS, you can use the display property. There are different values for the display property that you can use:
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
++ In your CSS stylesheet you can use `display: none;`: This value hides the element completely, and it won't take up any space on the page.
 
-### What you will make
-
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will need
+language: css
+filename: 
+line_numbers: true
 ---
-### Hardware
+    
+.hide {
+    display: none;
+}
+    
+--- /code ---
 
-+ A computer or tablet capable of running Scratch 3
+Then in your HTML file, you can apply the class to the elements you want to hide.
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
+--- code ---
 ---
-title: What you will learn
+language: html
+filename: 
+line_numbers: true
 ---
+    
+    <div class="hide">This element is hidden.</div>
+    
+--- /code ---
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
++ To show an element, you can also create a slector in your CSS stylesheet and use the property `display: none;`
 
---- /collapse ---
-
---- collapse ---
+--- code ---
 ---
-title: Additional information for educators
+language: css
+filename: 
+line_numbers: true
 ---
+    
+.hide {
+    display: none;
+}
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
+.show {
+    display: block; /* or inline, inline-block, etc. */
+}
+    
+--- /code ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
+--- code ---
+---
+language: html
+filename: 
+line_numbers: true
+---
+    
+    <div class="hide">This element is initially hidden.</div>
+    <div class="show">This element is initially visible.</div>
+    
+--- /code ---
 
---- /collapse ---
++ You can also use JavaScript to toggle the visibility of an HTML element. This will make it apper/disappear.
+
+--- code ---
+---
+language: js
+filename: 
+line_numbers: true
+---
+    
+var element = document.querySelector(#myElement);
+
+// To hide the element
+element.style.display = "none";
+
+// To show the element
+element.style.display = "block";
+    
+--- /code ---
