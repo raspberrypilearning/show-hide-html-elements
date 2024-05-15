@@ -1,6 +1,6 @@
 To show or hide HTML elements using CSS, you can use the display property. There are different values for the display property that you can use:
 
-+ In your CSS stylesheet you can use `display: none;`: This value hides the element completely, and it won't take up any space on the page.
++ In your CSS stylesheet, you can use `display: none;`. This value hides the element completely, and it won't take up any space on the page.
 
 --- code ---
 ---
@@ -15,7 +15,7 @@ line_numbers: true
     
 --- /code ---
 
-Then in your HTML file, you can apply the class to the elements you want to hide.
+Then, in your HTML file, you can apply the class to the elements you want to hide.
 
 --- code ---
 ---
@@ -28,7 +28,7 @@ line_numbers: true
     
 --- /code ---
 
-+ To show an element, you can also create a slector in your CSS stylesheet and use the property `display: none;`
++ To show an element, you can also create a selector in your CSS stylesheet and use the property `display: block;`.
 
 --- code ---
 ---
@@ -59,7 +59,7 @@ line_numbers: true
     
 --- /code ---
 
-+ You can also use JavaScript to toggle the visibility of an HTML element. This will make it apper/disappear.
++ You can also use JavaScript to toggle the visibility of an HTML element. This will make it appear and disappear.
 
 --- code ---
 ---
