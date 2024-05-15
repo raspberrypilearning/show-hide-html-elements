@@ -28,7 +28,7 @@ line_numbers: true
     
 --- /code ---
 
-+ To show an element, you can also create a selector in your CSS stylesheet and use the property `display: none;`.
++ To show an element, you can also create a selector in your CSS stylesheet and use the property `display: block;`.
 
 --- code ---
 ---
