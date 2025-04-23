@@ -44,7 +44,7 @@ display: none;
 }
 
 .show {
-display: block; /\* or inline, inline-block, etc. \*/
+display: block; /\* of inline, inline-block, etc. \*/
 }
 
 \--- /code ---
@@ -63,7 +63,7 @@ line_numbers: true
 
 \--- /code ---
 
-- Je kunt ook JavaScript gebruiken om de zichtbaarheid van een HTML-element in of uit te schakelen. Hierdoor verschijnt en verdwijnt het.
+- Je kunt ook JavaScript gebruiken om de zichtbaarheid van een HTML-element aan of uit te zetten. Hierdoor verschijnt en verdwijnt het.
 
 ## --- code ---
 
