@@ -1,6 +1,6 @@
-To show or hide HTML elements using CSS, you can use the display property. There are different values for the display property that you can use:
+Pour afficher ou masquer des éléments HTML à l'aide de CSS, tu peux utiliser la propriété display. Tu peux utiliser différentes valeurs pour la propriété display :
 
-- In your CSS stylesheet, you can use `display: none;`. This value hides the element completely, and it won't take up any space on the page.
+- Dans ta feuille de style CSS, tu peux utiliser `display: none;`. Cette valeur masque complètement l'élément, qui n'occupera aucun espace sur la page.
 
 ## --- code ---
 
@@ -15,7 +15,7 @@ display: none;
 
 \--- /code ---
 
-Then, in your HTML file, you can apply the class to the elements you want to hide.
+Ensuite, dans ton fichier HTML, tu pourras appliquer la classe aux éléments que tu souhaites masquer.
 
 ## --- code ---
 
@@ -25,12 +25,12 @@ line_numbers: true
 -------------------------------------------------------
 
 ```
-<div class="hide">This element is hidden.</div>
+<div class="hide">Cet élément est masqué.</div>
 ```
 
 \--- /code ---
 
-- To show an element, you can also create a selector in your CSS stylesheet and use the property `display: block;`.
+- Pour afficher un élément, tu peux également créer un sélecteur dans ta feuille de style CSS et utiliser la propriété `display: block;`.
 
 ## --- code ---
 
@@ -57,13 +57,13 @@ line_numbers: true
 -------------------------------------------------------
 
 ```
-<div class="hide">This element is initially hidden.</div>
-<div class="show">This element is initially visible.</div>
+<div class="hide">Cet élément est initialement masqué.</div>
+<div class="show">Cet élément est initialement visible.</div>
 ```
 
 \--- /code ---
 
-- You can also use JavaScript to toggle the visibility of an HTML element. This will make it appear and disappear.
+- Tu peux également utiliser JavaScript pour activer/désactiver la visibilité d'un élément HTML. Cela le fera apparaître et disparaître.
 
 ## --- code ---
 
@@ -74,10 +74,10 @@ line_numbers: true
 
 var element = document.querySelector(#myElement);
 
-// To hide the element
+// Pour masquer l'élément
 element.style.display = "none";
 
-// To show the element
+// Pour afficher l'élément
 element.style.display = "block";
 
 \--- /code ---
