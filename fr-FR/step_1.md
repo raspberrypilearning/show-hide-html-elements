@@ -44,7 +44,7 @@ display: none;
 }
 
 .show {
-display: block; /\* or inline, inline-block, etc. \*/
+display: block; /\* ou inline, inline-block, etc. \*/
 }
 
 \--- /code ---
