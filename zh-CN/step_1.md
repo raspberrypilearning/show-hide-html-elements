@@ -1,6 +1,6 @@
-To show or hide HTML elements using CSS, you can use the display property. There are different values for the display property that you can use:
+要使用 CSS 显示或隐藏 HTML 元素，可以使用 display 属性。 你可以使用不同的 display 属性值：
 
-- In your CSS stylesheet, you can use `display: none;`. This value hides the element completely, and it won't take up any space on the page.
+- 在你的 CSS 样式表中，您可以使用 `display: none;`。 该值将元素完全隐藏，并且不会占用页面上的任何空间。
 
 ## --- code ---
 
@@ -15,7 +15,7 @@ display: none;
 
 \--- /code ---
 
-Then, in your HTML file, you can apply the class to the elements you want to hide.
+然后，在你的 HTML 文件中，你可以将该类应用于你想要隐藏的元素。
 
 ## --- code ---
 
@@ -25,12 +25,12 @@ line_numbers: true
 -------------------------------------------------------
 
 ```
-<div class="hide">This element is hidden.</div>
+<div class="hide">此元素已隐藏。</div>
 ```
 
 \--- /code ---
 
-- To show an element, you can also create a selector in your CSS stylesheet and use the property `display: block;`.
+- 要显示元素，你还可以在 CSS 样式表中创建选择器并使用属性 `display: block;`。
 
 ## --- code ---
 
@@ -57,13 +57,13 @@ line_numbers: true
 -------------------------------------------------------
 
 ```
-<div class="hide">This element is initially hidden.</div>
-<div class="show">This element is initially visible.</div>
+<div class="hide">此元素最初是隐藏的。</div>
+<div class="show">此元素最初是可见的。</div>
 ```
 
 \--- /code ---
 
-- You can also use JavaScript to toggle the visibility of an HTML element. This will make it appear and disappear.
+- 你还可以使用 JavaScript 来切换 HTML 元素的可见性。 这将使它出现和消失。
 
 ## --- code ---
 
@@ -74,10 +74,10 @@ line_numbers: true
 
 var element = document.querySelector(#myElement);
 
-// To hide the element
+// 隐藏元素
 element.style.display = "none";
 
-// To show the element
+// 显示元素
 element.style.display = "block";
 
 \--- /code ---
